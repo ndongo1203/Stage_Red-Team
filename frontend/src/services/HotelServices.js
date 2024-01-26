@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const SERVER_URL = 'http://localhost:5000/api';
+const SERVER_URL = 'https://app-nodejs-express-mongodb.onrender.com';
 
 const addHotel = (data) => {
   return axios.post(`${SERVER_URL}/hotels`, data);
