@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const SERVER_URL = 'https://app-nodejs-express-mongodb.onrender.com';
+const SERVER_URL = 'https://app-bakend-and-frotend.onrender.com/api';
 
 const registerUser = (data) => {
     return axios.post(SERVER_URL + '/register', data);

@@ -8,7 +8,7 @@ const multer = require('multer');
 const path = require('path');
 require('dotenv').config();
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 000;
 
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
